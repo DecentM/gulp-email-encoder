@@ -1,6 +1,6 @@
 {
   "name": "gulp-email-encoder",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Gulp wrapper for email-encoder",
   "license": "MIT",
   "repository": "DecentM/gulp-email-encoder",
