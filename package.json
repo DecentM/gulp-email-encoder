@@ -1,0 +1,48 @@
+{
+  "name": "gulp-email-encoder",
+  "version": "0.0.1",
+  "description": "Gulp wrapper for email-encoder",
+  "license": "MIT",
+  "repository": "DecentM/gulp-email-encoder",
+  "author": {
+    "name": "DecentM",
+    "email": "decentm@decentm.com",
+    "url": "decentm.com"
+  },
+  "engines": {
+    "node": ">=6"
+  },
+  "scripts": {
+    "test": "eslint ./*.js && ava"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "gulpplugin",
+    "email",
+    "html",
+    "spam",
+    "security",
+    "encode",
+    "entity",
+    "entities"
+  ],
+  "dependencies": {
+    "email-encoder": "^1.0.1",
+    "gulp-util": "^3.0.7",
+    "through2": "^2.0.1"
+  },
+  "devDependencies": {
+    "ava": "^0.19.1",
+    "eslint": "^3.19.0",
+    "eslint-config-nodesecurity": "^1.3.1",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-plugin-import": "^2.3.0",
+    "eslint-plugin-node": "^5.0.0",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-security": "^1.3.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "pre-commit": "^1.2.2"
+  }
+}

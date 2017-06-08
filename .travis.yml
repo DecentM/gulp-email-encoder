@@ -1,0 +1,28 @@
+language: node_js
+install: true
+
+node_js:
+  - '8'
+  - '6'
+
+os:
+  - linux
+  - osx
+
+env:
+  - TEST=lint
+  - TEST=unit
+
+matrix:
+  fast_finish: true
+  allow_failures:
+    - os: osx
+  exclude:
+    - node_js: '6'
+      env: TEST=unit
+
+script:
+  - ci/run.sh
+
+cache:
+  - "node_modules"
