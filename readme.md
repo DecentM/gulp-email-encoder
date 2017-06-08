@@ -1,6 +1,6 @@
 # gulp-email-encoder [![Build Status](https://travis-ci.org/DecentM/gulp-email-encoder.svg?branch=master)](https://travis-ci.org/DecentM/gulp-email-encoder)
 
-> My ace gulp plugin
+> Gulp wrapper for email-encoder
 
 
 ## Install
@@ -17,26 +17,17 @@ const gulp = require('gulp');
 const emailEncoder = require('gulp-email-encoder');
 
 gulp.task('default', () => {
-	gulp.src('src/file.ext')
+	gulp.src('src/index.html')
 		.pipe(emailEncoder())
-		.pipe(gulp.dest('dist'))
+		.pipe(gulp.dest('build'))
 );
 ```
 
-
 ## API
 
-### emailEncoder([options])
+### emailEncoder()
 
-#### options
-
-##### foo
-
-Type: `boolean`<br>
-Default: `false`
-
-Lorem ipsum.
-
+Replaces email addresses in the stream with their HTML entity-encoded counterparts
 
 ## License
 
