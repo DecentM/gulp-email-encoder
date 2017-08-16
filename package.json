@@ -1,7 +1,7 @@
 {
   "name": "gulp-email-encoder",
-  "version": "1.0.0",
-  "description": "Gulp wrapper for email-encoder",
+  "version": "1.0.1",
+  "description": "Protect e-mail addresses in your HTML from bots",
   "license": "MIT",
   "repository": "git@github.com:decentm/gulp-email-encoder.git",
   "author": {
