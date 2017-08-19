@@ -1,6 +1,6 @@
 # gulp-email-encoder [![Build Status](https://travis-ci.org/DecentM/gulp-email-encoder.svg?branch=master)](https://travis-ci.org/DecentM/gulp-email-encoder) [![Greenkeeper badge](https://badges.greenkeeper.io/DecentM/gulp-email-encoder.svg)](https://greenkeeper.io/)
 
-> Gulp wrapper for email-encoder
+> Protect e-mail addresses in your HTML from spambots
 
 
 ## Install
